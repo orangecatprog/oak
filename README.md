@@ -22,7 +22,7 @@ You can create your own LLM plugins — for example, a plugin that runs each que
 
 ### Example
 
-An example is the **Orchestrator-Workers**, where a coordinator agent (`orchestrator agent`) delegates subtasks to specialized worker agents (`worker agents`).
+An example is the **Orchestrator-Workers** pattern, where a coordinator agent (`orchestrator agent`) delegates subtasks to specialized worker agents (`worker agents`).
 
 ## Roadmap
 
@@ -31,8 +31,8 @@ The current block is:
 **Block 1**: Design basic logic
 
 - [x] Create [README.md](./README.md)
-- [x] Create license
-- [ ] Create spanish readme
+- [x] Create [LICENSE](./LICENSE)
+- [x] Create [README.es.md](./README.es.md)
 - [ ] Create changelog
 
 ## Getting Started
