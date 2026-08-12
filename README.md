@@ -31,7 +31,7 @@ The current block is:
 **Block 1**: Design basic logic
 
 - [x] Create [README.md](./README.md)
-- [ ] Create license
+- [x] Create license
 - [ ] Create spanish readme
 - [ ] Create changelog
 
@@ -45,4 +45,4 @@ Contributions are welcome. Open an issue or a PR to discuss changes before imple
 
 ## License
 
-This project is under the MIT LICENSE
+This project is under the [MIT License](./LICENSE)
