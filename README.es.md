@@ -33,7 +33,7 @@ El bloque actual es:
 - [x] Crear [README.md](./README.md)
 - [x] Crear [LICENSE](./LICENSE)
 - [x] Crear [README.es.md](./README.es.md)
-- [ ] Crear changelog
+- [x] Crear [CHANGELOG.md](./CHANGELOG.md)
 
 ## Empezando
 
