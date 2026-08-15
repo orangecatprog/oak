@@ -24,18 +24,6 @@ You can create your own LLM plugins — for example, a plugin that runs each que
 
 An example is the **Orchestrator-Workers** pattern, where a coordinator agent (`orchestrator agent`) delegates subtasks to specialized worker agents (`worker agents`).
 
-## Roadmap
-
-**Block 3**: Architecture — *current*
-
-- [ ] Write the architecture document (layers, domain contracts, interactions)
-  - [ ] Define the architectural layers and their dependency rules
-  - [ ] Define the domain contracts of the entities
-  - [ ] Define the interaction flows (Chain/Sub/Super) and the concurrency extension point
-  - [ ] Define the Session and Entry Point model
-  - [ ] Document the Plugin contract and the security boundaries
-  - [ ] Record open decisions (tech stack, TUI, storage) with resolution criteria
-
 ## Getting Started
 
 Coming soon — this section will be filled once the tech stack is decided.
