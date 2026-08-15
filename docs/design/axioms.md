@@ -105,6 +105,7 @@ Provenance:
 The system must be able to account for what occurs during its execution.
 
 Provenance:
+
 - [concepts.md](./concepts.md): Session.
 - [requirements.md](./requirements.md): §8, §20, §21.
 

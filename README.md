@@ -26,31 +26,6 @@ An example is the **Orchestrator-Workers** pattern, where a coordinator agent (`
 
 ## Roadmap
 
-**Block 2**: Foundation — *done*
-
-- [x] Define the project concepts
-- [x] Define the project requirements
-- [x] Define and document the axioms
-  - [x] Define the validity criteria of an axiom
-  - [x] Extract candidate axioms from concepts and requirements
-  - [x] Validate and reduce to a minimal set
-  - [x] Document the axioms ([axioms.md](./docs/design/axioms.md))
-- [x] Audit consistency: map requirements and concepts to their grounding axioms
-  - [x] Map each requirements section (§1–§29) to its grounding axioms
-  - [x] Review [concepts.md](./docs/design/concepts.md) against the axioms
-  - [x] Record and resolve inconsistencies
-- [x] Derive the design principles (derivation tree)
-  - [x] Derive Separation of Concerns from the axioms
-  - [x] Derive Separation of Responsibilities from the axioms
-  - [x] Derive interaction semantics (Chain/Sub/Super) from the axioms
-  - [x] Document the derivation tree
-- [x] Define non-goals and scope boundaries
-  - [x] Enumerate what OAK is not (§29 scope)
-  - [x] Document the scope boundaries
-- [x] Define the exit criteria for the design phase
-  - [x] Define acceptance criteria to close the design phase
-  - [x] Document the criteria
-
 **Block 3**: Architecture — *current*
 
 - [ ] Write the architecture document (layers, domain contracts, interactions)
