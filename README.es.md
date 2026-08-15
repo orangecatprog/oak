@@ -31,10 +31,25 @@ Un ejemplo es el patrón **Orquestador-minion**, donde un agente coordinador (`a
 - [x] Definir los conceptos
 - [x] Definir los requisitos del proyecto
 - [ ] Definir y documentar los axiomas
+  - [ ] Definir los criterios de validez de un axioma
+  - [ ] Extraer axiomas candidatos de conceptos y requisitos
+  - [ ] Validar y reducir a un conjunto mínimo
+  - [ ] Documentar los axiomas ([axioms.md](./docs/design/axioms.md))
 - [ ] Auditar la consistencia: mapear requisitos y conceptos a sus axiomas fundamentadores
+  - [ ] Mapear cada sección de requisitos (§1–§29) a sus axiomas fundamentadores
+  - [ ] Revisar [concepts.md](./docs/design/concepts.md) contra los axiomas
+  - [ ] Registrar y resolver inconsistencias
 - [ ] Derivar los principios de diseño (árbol de derivación)
+  - [ ] Derivar Separation of Concerns de los axiomas
+  - [ ] Derivar Separation of Responsibilities de los axiomas
+  - [ ] Derivar la semántica de interacciones (Chain/Sub/Super) de los axiomas
+  - [ ] Documentar el árbol de derivación
 - [ ] Definir los no-goals y límites de alcance
+  - [ ] Enumerar qué no es OAK (alcance §29)
+  - [ ] Documentar los límites de alcance
 - [ ] Definir los criterios de salida de la fase de diseño
+  - [ ] Definir los criterios de aceptación para cerrar la fase de diseño
+  - [ ] Documentar los criterios
 
 ## Empezando
 

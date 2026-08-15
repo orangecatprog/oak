@@ -31,10 +31,25 @@ An example is the **Orchestrator-Workers** pattern, where a coordinator agent (`
 - [x] Define the project concepts
 - [x] Define the project requirements
 - [ ] Define and document the axioms
+  - [ ] Define the validity criteria of an axiom
+  - [ ] Extract candidate axioms from concepts and requirements
+  - [ ] Validate and reduce to a minimal set
+  - [ ] Document the axioms ([axioms.md](./docs/design/axioms.md))
 - [ ] Audit consistency: map requirements and concepts to their grounding axioms
+  - [ ] Map each requirements section (§1–§29) to its grounding axioms
+  - [ ] Review [concepts.md](./docs/design/concepts.md) against the axioms
+  - [ ] Record and resolve inconsistencies
 - [ ] Derive the design principles (derivation tree)
+  - [ ] Derive Separation of Concerns from the axioms
+  - [ ] Derive Separation of Responsibilities from the axioms
+  - [ ] Derive interaction semantics (Chain/Sub/Super) from the axioms
+  - [ ] Document the derivation tree
 - [ ] Define non-goals and scope boundaries
+  - [ ] Enumerate what OAK is not (§29 scope)
+  - [ ] Document the scope boundaries
 - [ ] Define the exit criteria for the design phase
+  - [ ] Define acceptance criteria to close the design phase
+  - [ ] Document the criteria
 
 ## Getting Started
 
