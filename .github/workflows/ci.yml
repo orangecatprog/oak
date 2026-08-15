@@ -54,7 +54,7 @@ jobs:
 
       - name: Verify formatting
         run: |
-          gofmt -d ./...
+          gofmt -d .
 
   vet:
     runs-on: ubuntu-latest
