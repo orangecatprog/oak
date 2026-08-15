@@ -1,0 +1,25 @@
+# Dependabot auto-update configuration for OAK
+# ------------------------------------------------
+# Monitors Go modules and enables version updates
+# ------------------------------------------------
+
+version: 2
+updates:
+  # --- Go module dependencies ---
+  - package-ecosystem "gopath"
+    directory: "/"
+    schedule:
+      interval "weekly"
+      time "02:00"
+    open-pull-requests-limit: 10
+    # Update patch and minor versions (not major)
+    range "minor"
+    # Enable vetting (runs go vet on updated code)
+    # commit-message:
+    #   include "scope"
+    #   include "type"
+    #   prefix "chore(deps):"
+    #   include "breaking"
+    # ignore:
+    #   - dependency-name: "some-dep"
+    #     versions: ["0.5.0", "0.5.1"]
