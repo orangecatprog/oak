@@ -30,11 +30,11 @@ An example is the **Orchestrator-Workers** pattern, where a coordinator agent (`
 
 - [x] Define the project concepts
 - [x] Define the project requirements
-- [ ] Define and document the axioms
-  - [ ] Define the validity criteria of an axiom
-  - [ ] Extract candidate axioms from concepts and requirements
-  - [ ] Validate and reduce to a minimal set
-  - [ ] Document the axioms ([axioms.md](./docs/design/axioms.md))
+- [x] Define and document the axioms
+  - [x] Define the validity criteria of an axiom
+  - [x] Extract candidate axioms from concepts and requirements
+  - [x] Validate and reduce to a minimal set
+  - [x] Document the axioms ([axioms.md](./docs/design/axioms.md))
 - [ ] Audit consistency: map requirements and concepts to their grounding axioms
   - [ ] Map each requirements section (§1–§29) to its grounding axioms
   - [ ] Review [concepts.md](./docs/design/concepts.md) against the axioms

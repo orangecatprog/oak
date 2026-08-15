@@ -15,3 +15,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [LICENSE](LICENSE)
 - [README.es.md](README.es.md)
 - [CHANGELOG.md](CHANGELOG.md)
+- [docs/design/axioms.md](docs/design/axioms.md)
