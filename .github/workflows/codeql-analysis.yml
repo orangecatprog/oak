@@ -1,0 +1,61 @@
+name: CodeQL Analysis
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '42 5 * * 0'
+
+jobs:
+  analyze:
+    name: Analyze
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+      # Actions required for all workflows
+      # .github/workflows: write
+
+    strategy:
+      fail-fast: false
+      matrix:
+        # CodeQL supports JavaScript, TypeScript, Python, and Java as currently analyzed.
+        language: [go]
+
+    steps:
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: go
+          # If you wish to specify custom queries, you can do so here or in a queries file
+          # queries: ./my-custom-queries
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.26.6'
+
+      - name: Install dependencies
+        run: go mod download
+
+      - name: Build
+        run: go build -o /dev/null ./cmd/oak
+
+      - name: Upload CodeQL results
+        uses: github/codeql-action/upload@v3
+        with:
+          # Upload CodeQL results to GitHub
+          # (This is handled automatically when the analyze job completes)
+          # Comment out the line below if you use the automatic upload
+          # category: "/ codeql"
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
