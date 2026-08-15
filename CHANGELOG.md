@@ -16,3 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [README.es.md](README.es.md)
 - [CHANGELOG.md](CHANGELOG.md)
 - [docs/design/axioms.md](docs/design/axioms.md)
+- [docs/design/audit.md](docs/design/audit.md)
+- [docs/design/principles.md](docs/design/principles.md)
+- [docs/design/scope.md](docs/design/scope.md)
+- [docs/design/exit-criteria.md](docs/design/exit-criteria.md)

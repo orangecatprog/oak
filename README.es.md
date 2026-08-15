@@ -26,7 +26,7 @@ Un ejemplo es el patrón **Orquestador-minion**, donde un agente coordinador (`a
 
 ## Plan de implementación
 
-**Bloque 2**: Fundamento — *actual*
+**Bloque 2**: Fundamento — *completado*
 
 - [x] Definir los conceptos
 - [x] Definir los requisitos del proyecto
@@ -35,21 +35,31 @@ Un ejemplo es el patrón **Orquestador-minion**, donde un agente coordinador (`a
   - [x] Extraer axiomas candidatos de conceptos y requisitos
   - [x] Validar y reducir a un conjunto mínimo
   - [x] Documentar los axiomas ([axioms.md](./docs/design/axioms.md))
-- [ ] Auditar la consistencia: mapear requisitos y conceptos a sus axiomas fundamentadores
-  - [ ] Mapear cada sección de requisitos (§1–§29) a sus axiomas fundamentadores
-  - [ ] Revisar [concepts.md](./docs/design/concepts.md) contra los axiomas
-  - [ ] Registrar y resolver inconsistencias
-- [ ] Derivar los principios de diseño (árbol de derivación)
-  - [ ] Derivar Separation of Concerns de los axiomas
-  - [ ] Derivar Separation of Responsibilities de los axiomas
-  - [ ] Derivar la semántica de interacciones (Chain/Sub/Super) de los axiomas
-  - [ ] Documentar el árbol de derivación
-- [ ] Definir los no-goals y límites de alcance
-  - [ ] Enumerar qué no es OAK (alcance §29)
-  - [ ] Documentar los límites de alcance
-- [ ] Definir los criterios de salida de la fase de diseño
-  - [ ] Definir los criterios de aceptación para cerrar la fase de diseño
-  - [ ] Documentar los criterios
+- [x] Auditar la consistencia: mapear requisitos y conceptos a sus axiomas fundamentadores
+  - [x] Mapear cada sección de requisitos (§1–§29) a sus axiomas fundamentadores
+  - [x] Revisar [concepts.md](./docs/design/concepts.md) contra los axiomas
+  - [x] Registrar y resolver inconsistencias
+- [x] Derivar los principios de diseño (árbol de derivación)
+  - [x] Derivar Separation of Concerns de los axiomas
+  - [x] Derivar Separation of Responsibilities de los axiomas
+  - [x] Derivar la semántica de interacciones (Chain/Sub/Super) de los axiomas
+  - [x] Documentar el árbol de derivación
+- [x] Definir los no-goals y límites de alcance
+  - [x] Enumerar qué no es OAK (alcance §29)
+  - [x] Documentar los límites de alcance
+- [x] Definir los criterios de salida de la fase de diseño
+  - [x] Definir los criterios de aceptación para cerrar la fase de diseño
+  - [x] Documentar los criterios
+
+**Bloque 3**: Arquitectura — *actual*
+
+- [ ] Escribir el documento de arquitectura (capas, contratos de dominio, interacciones)
+  - [ ] Definir las capas arquitectónicas y sus reglas de dependencia
+  - [ ] Definir los contratos de dominio de las entidades
+  - [ ] Definir los flujos de interacción (Chain/Sub/Super) y el punto de extensión de concurrencia
+  - [ ] Definir el modelo de Session y Entry Point
+  - [ ] Documentar el contrato de Plugins y los límites de seguridad
+  - [ ] Registrar las decisiones abiertas (stack, TUI, almacenamiento) con sus criterios de resolución
 
 ## Empezando
 
