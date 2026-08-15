@@ -24,9 +24,15 @@ You can create your own LLM plugins — for example, a plugin that runs each que
 
 An example is the **Orchestrator-Workers** pattern, where a coordinator agent (`orchestrator agent`) delegates subtasks to specialized worker agents (`worker agents`).
 
+## Tech Stack
+
+- **Language**: Go — the Core, Kernel, and TUI.
+- **TUI**: Charm (Bubble Tea, Lip Gloss, Bubbles), as an External adapter over the Core ports.
+- See [docs/design/tech-stack.md](./docs/design/tech-stack.md) for the decision and its criteria.
+
 ## Getting Started
 
-Coming soon — this section will be filled once the tech stack is decided.
+Coming soon — implementation begins in Block 5.
 
 ## Contributing
 

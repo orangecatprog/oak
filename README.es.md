@@ -24,9 +24,15 @@ Puedes crear tus propios plugins de LLM, por ejemplo, un plugin que ejecuta cada
 
 Un ejemplo es el patrón **Orquestador-minion**, donde un agente coordinador (`agente orquestador`) delega subtareas a agentes trabajadores especializados (`subagentes`).
 
+## Stack tecnológico
+
+- **Lenguaje**: Go — el Core, el Kernel y la TUI.
+- **TUI**: Charm (Bubble Tea, Lip Gloss, Bubbles), como adaptador Externo sobre los puertos del Core.
+- Consulta [docs/design/tech-stack.md](./docs/design/tech-stack.md) para la decisión y sus criterios.
+
 ## Empezando
 
-Pronto; esta sección será rellenada cuando las tecnologías estén decididas.
+Pronto; la implementación comienza en el Bloque 5.
 
 ## Contribuyendo
 

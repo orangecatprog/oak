@@ -27,3 +27,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [docs/design/adr/004_design_patterns.md](docs/design/adr/004_design_patterns.md)
 - [docs/design/adr/005_test-driven-development.md](docs/design/adr/005_test-driven-development.md)
 - [docs/design/open-decisions.md](docs/design/open-decisions.md)
+- [docs/design/tech-stack.md](docs/design/tech-stack.md)

@@ -10,27 +10,7 @@ Each entry records the decision, its options, the criteria that will resolve it,
 
 ## Decisions
 
-### D1 · Programming language
-
-- **Status**: Open — to be resolved in Block 4.
-- **Options**: Rust, Go, TypeScript/Node, Python.
-- **Resolution criteria**:
-  - Cross-platform distribution as a single artifact (§25: Windows, Linux, macOS, WSL, server environments).
-  - A mature TUI ecosystem for the presentation layer.
-  - Support for the Core/External boundary and plugin isolation (P7, §18).
-  - Fit with the agent/LLM ecosystem (providers, interoperability, §17).
-  - Team familiarity and long-term maintainability.
-
-### D2 · TUI framework
-
-- **Status**: Open — to be resolved in Block 4.
-- **Options**: depends on the language chosen in D1.
-- **Resolution criteria**:
-  - Capable of the views required to manage the agent schema (agents, interactions, sessions).
-  - Maintained and cross-platform (§25).
-  - Independent of the Core; the presentation must be an External adapter (ADR 001, §19).
-
-### D3 · Session storage mechanism
+### D1 · Session storage mechanism
 
 - **Status**: Open — to be resolved in Block 4.
 - **Options**: file-based storage, embedded database, other mechanism.
