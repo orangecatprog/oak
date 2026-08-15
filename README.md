@@ -1,8 +1,8 @@
 # OAK - Orangecat Ai Kit
 
-![Status](https://img.shields.io/badge/status-design%20phase-orange)
+> Crea tus agentes, enlázalos y crea patrones agénticos
 
-> Build your agents, link them and create agent patterns
+![Status](https://img.shields.io/badge/status-design%20phase-orange)
 
 > [!NOTE]
 > This project is in design phase, that means that it's being actively designed.
@@ -26,14 +26,12 @@ An example is the **Orchestrator-Workers** pattern, where a coordinator agent (`
 
 ## Roadmap
 
-The current block is:
+**Block 2**: Foundation (axioms) — *current*
 
-**Block 1**: Design basic logic
-
-- [x] Create [README.md](./README.md)
-- [x] Create [LICENSE](./LICENSE)
-- [x] Create [README.es.md](./README.es.md)
-- [x] Create [CHANGELOG.md](./CHANGELOG.md)
+- [x] Define the project concepts
+- [x] Define the project requirements
+- [ ] Define and document the axioms
+- [ ] Derivate the axioms
 
 ## Getting Started
 

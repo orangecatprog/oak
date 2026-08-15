@@ -1,8 +1,8 @@
 # **OAK - Orangecat Ai Kit**
 
-![Status](https://img.shields.io/badge/status-design%20phase-orange)
-
 > Crea tus agentes, enlázalos y crea patrones agénticos
+
+![Status](https://img.shields.io/badge/status-design%20phase-orange)
 
 > [!NOTE]
 > Este proyecto está en fase de diseño, lo que significa que está siendo diseñado activamente.
@@ -13,7 +13,7 @@ OAK es un kit para desarrollar y conectar agentes, creando patrones agénticos r
 
 ### Propósito
 
-OAK está diseñado para ser fácil de usar, con una TUI intuitiva con diferentes vistas para administrar tu esquema de agentes. 
+OAK está diseñado para ser fácil de usar, con una TUI intuitiva con diferentes vistas para administrar tu esquema de agentes.
 
 ### Proveedores
 
@@ -26,14 +26,12 @@ Un ejemplo es el patrón **Orquestador-minion**, donde un agente coordinador (`a
 
 ## Plan de implementación
 
-El bloque actual es:
+**Bloque 2**: Fundamento (axiomas) — *actual*
 
-**Bloque 1**: Diseño de la lógica básica
-
-- [x] Crear [README.md](./README.md)
-- [x] Crear [LICENSE](./LICENSE)
-- [x] Crear [README.es.md](./README.es.md)
-- [x] Crear [CHANGELOG.md](./CHANGELOG.md)
+- [x] Definir los conceptos
+- [x] Definir los requisitos del proyecto
+- [ ] Definir y documentar los axiomas
+- [ ] Derivar los axiomas
 
 ## Empezando
 
