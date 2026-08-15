@@ -26,12 +26,15 @@ Un ejemplo es el patrón **Orquestador-minion**, donde un agente coordinador (`a
 
 ## Plan de implementación
 
-**Bloque 2**: Fundamento (axiomas) — *actual*
+**Bloque 2**: Fundamento — *actual*
 
 - [x] Definir los conceptos
 - [x] Definir los requisitos del proyecto
 - [ ] Definir y documentar los axiomas
-- [ ] Derivar los axiomas
+- [ ] Auditar la consistencia: mapear requisitos y conceptos a sus axiomas fundamentadores
+- [ ] Derivar los principios de diseño (árbol de derivación)
+- [ ] Definir los no-goals y límites de alcance
+- [ ] Definir los criterios de salida de la fase de diseño
 
 ## Empezando
 

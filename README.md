@@ -26,12 +26,15 @@ An example is the **Orchestrator-Workers** pattern, where a coordinator agent (`
 
 ## Roadmap
 
-**Block 2**: Foundation (axioms) — *current*
+**Block 2**: Foundation — *current*
 
 - [x] Define the project concepts
 - [x] Define the project requirements
 - [ ] Define and document the axioms
-- [ ] Derivate the axioms
+- [ ] Audit consistency: map requirements and concepts to their grounding axioms
+- [ ] Derive the design principles (derivation tree)
+- [ ] Define non-goals and scope boundaries
+- [ ] Define the exit criteria for the design phase
 
 ## Getting Started
 
